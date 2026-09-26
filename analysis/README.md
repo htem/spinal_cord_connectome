@@ -4,8 +4,7 @@ Analysis code and derived data tables for the two manuscripts described in the
 [repository README](../README.md), studying the mouse lumbar spinal cord dorsal horn
 reconstructed from the **dSC1** serial-section TEM volume:
 
-- **Manuscript 1** — *Cell type-resolved connectomic reconstruction of the spinal cord dorsal
-  horn reveals somatosensory neuron synaptic organization and modality-specific inhibition*
+- **Manuscript 1** — *Cell type-resolved connectomic reconstruction of the spinal dorsal horn reveals sensory neuron synaptic organization and modality-specific inhibition*
   (Xiang et al.) → [`manuscript1_sensory_synaptic_organization/`](manuscript1_sensory_synaptic_organization/)
 - **Manuscript 2** — *A synaptic wiring diagram underlying somatosensory modality-specific
   ascending pathways of the superficial spinal dorsal horn* (Xiang et al.)
