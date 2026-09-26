@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+env/
+
+# Credentials — never commit
+.cave-secret.json
+*secret*.json
+.env
+
+# Bulk data kept outside the repository (see README "Data availability")
+*.ply
+*.h5
+*.tiff
+*.tif
+*.feather
+meshes/
+mesh_h5_outputs*/
+
+# SWC skeletons are bulk EXCEPT the curated set that ships with the repo
+*.swc
+!manuscript2_wiring_diagram/data/swc_skeletons/**/*.swc
+
+# Local caches
+l2_cache.sqlite
+*.progress.json
+*.retries.json
+
+# Internal working notes, not for publication
+REVIEW_ME.md
+
+# Unpolished provenance notebooks and draft notes, not for publication
+_not_yet_cleaned/
+figure_legends_and_methods.md

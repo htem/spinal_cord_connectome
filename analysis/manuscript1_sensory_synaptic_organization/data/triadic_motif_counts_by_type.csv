@@ -1,0 +1,110 @@
+sensory,in,exn,count
+mrgd,islet-chtmr,np_module,469
+cltmr,islet-cltmr,cltmr_module,345
+cltmr,islet-cltmr,np_module,191
+cltmr,IN for abltmr,cltmr_module,165
+mrgd,IN for abltmr,np_module,113
+sst,islet-chtmr,np_module,88
+adltmr,islet-adltmr,adltmr_module,80
+ad-htmr,IN for adhtmr,noci_module,79
+cltmr,IN for abltmr,np_module,74
+adltmr,IN for abltmr,cltmr_module,69
+mrgd,islet-cltmr,np_module,69
+cltmr,islet-chtmr,np_module,58
+ad-htmr,IN for adhtmr,v2,53
+mrgd,islet-chtmr,r,52
+ab-ltmr,IN for abltmr,v2,49
+cltmr,islet-cltmr,adltmr_module,48
+ad-htmr,IN for adhtmr,np_module,40
+mrgd,IN for abltmr,cltmr_module,36
+ab-ltmr,IN for abltmr,cltmr_module,32
+adltmr,IN for abltmr,adltmr_module,32
+ab-ltmr,IN for adhtmr,v2,28
+ad-htmr,IN for adhtmr,p2_noci,26
+mrgd,islet-chtmr,cltmr_module,25
+mrgd,IN for abltmr,noci_module,23
+mrgd,IN for adhtmr,np_module,23
+sst,IN for abltmr,np_module,23
+ab-ltmr,IN for abltmr,v1,20
+cltmr,islet-cltmr,v2,19
+sst,IN for adhtmr,np_module,19
+ab-ltmr,IN for adhtmr,np_module,18
+ab-ltmr,IN for abltmr,noci_module,16
+mrgd,IN for abltmr,v1,16
+cltmr,IN for abltmr,v2,14
+mrgd,IN for abltmr,r,13
+sst,islet-chtmr,r,13
+mrgd,islet-cltmr,cltmr_module,12
+adltmr,IN for abltmr,v1,11
+adltmr,IN for abltmr,v2,11
+cltmr,islet-chtmr,cltmr_module,11
+mrgd,islet-chtmr,noci_module,11
+ab-ltmr,IN for abltmr,np_module,10
+ab-ltmr,IN for abltmr,r,9
+cltmr,IN for abltmr,noci_module,9
+mrgd,islet-cltmr,r,8
+sst,IN for adhtmr,noci_module,8
+ab-ltmr,IN for adhtmr,noci_module,7
+ab-ltmr,islet-cltmr,np_module,7
+ad-htmr,IN for adhtmr,p2_poly,7
+adltmr,IN for abltmr,r,7
+cltmr,IN for abltmr,adltmr_module,7
+cltmr,IN for adhtmr,np_module,7
+ab-ltmr,IN for abltmr,adltmr_module,6
+ad-htmr,IN for adhtmr,r,6
+c-htmr-p,islet-chtmr,np_module,6
+cltmr,islet-adltmr,adltmr_module,6
+cltmr,islet-cltmr,r,6
+cltmr,IN for abltmr,r,5
+sst,islet-chtmr,noci_module,5
+ab-ltmr,islet-cltmr,v2,4
+adltmr,islet-adltmr,cltmr_module,4
+cltmr,IN for abltmr,v1,4
+mrgd,IN for adhtmr,r,4
+sst,IN for abltmr,r,4
+ab-ltmr,IN for adhtmr,r,3
+ab-ltmr,islet-adltmr,adltmr_module,3
+adltmr,IN for abltmr,np_module,3
+adltmr,islet-adltmr,r,3
+sst,IN for adhtmr,r,3
+ab-ltmr,islet-adltmr,r,2
+ab-ltmr,islet-cltmr,cltmr_module,2
+cltmr,islet-adltmr,cltmr_module,2
+cltmr,islet-chtmr,noci_module,2
+mrgd,IN for adhtmr,v2,2
+mrgd,islet-cltmr,adltmr_module,2
+mrgd,islet-cltmr,v2,2
+sst,IN for abltmr,cltmr_module,2
+sst,IN for adhtmr,p2_noci,2
+sst,islet-chtmr,cltmr_module,2
+ab-ltmr,IN for adhtmr,p2_noci,1
+ab-ltmr,islet-adltmr,np_module,1
+ab-ltmr,islet-chtmr,r,1
+ab-ltmr,islet-chtmr,v2,1
+ad-htmr,IN for abltmr,v2,1
+ad-htmr,islet-chtmr,noci_module,1
+ad-htmr,islet-chtmr,p2_noci,1
+ad-htmr,islet-chtmr,r,1
+adltmr,islet-adltmr,v2,1
+adltmr,islet-cltmr,adltmr_module,1
+adltmr,islet-cltmr,cltmr_module,1
+c-cold,IN for adhtmr,noci_module,1
+c-htmr-p,IN for adhtmr,noci_module,1
+c-htmr-p,IN for adhtmr,np_module,1
+c-htmr-p,islet-chtmr,noci_module,1
+c-htmr-p,islet-chtmr,p2_noci,1
+c-htmr-p,islet-chtmr,r,1
+cltmr,IN for adhtmr,cltmr_module,1
+cltmr,IN for adhtmr,noci_module,1
+cltmr,IN for adhtmr,r,1
+cltmr,IN for adhtmr,v2,1
+cltmr,islet-adltmr,np_module,1
+cltmr,islet-chtmr,r,1
+mrgd,IN for abltmr,adltmr_module,1
+mrgd,IN for abltmr,v2,1
+mrgd,IN for adhtmr,noci_module,1
+mrgd,IN for adhtmr,p2_poly,1
+mrgd,IN for adhtmr,v1,1
+sst,IN for abltmr,noci_module,1
+sst,IN for abltmr,v2,1
+sst,IN for adhtmr,p2_poly,1

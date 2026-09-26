@@ -1,0 +1,46 @@
+group1,group2,method,p_adj,significant,effect,effect_name,stars
+A-β-LTMR,C-HTMR/Heat (SST+),Dunn (holm),2.8664850783512544e-23,True,1.0,Cliff's delta,***
+A-β-LTMR,C-HTMR/Heat (MRGPRA3+),Dunn (holm),6.656518756271231e-22,True,0.9152542372881356,Cliff's delta,***
+A-β-LTMR,C-Heat (SSTR2+),Dunn (holm),4.447048105913698e-19,True,0.9915966386554622,Cliff's delta,***
+A-δ-LTMR,C-HTMR/Heat (SST+),Dunn (holm),2.584269874868566e-16,True,0.8137254901960784,Cliff's delta,***
+A-δ-LTMR,C-HTMR/Heat (MRGPRA3+),Dunn (holm),2.723021508094849e-15,True,0.6334330342306415,Cliff's delta,***
+A-β-LTMR,C-Cold (TRPM8+),Dunn (holm),7.247020906669269e-13,True,0.8775510204081632,Cliff's delta,***
+A-δ-LTMR,C-Heat (SSTR2+),Dunn (holm),2.4706067124005867e-12,True,0.7883506343713956,Cliff's delta,***
+C-HTMR/Heat (SST+),C-LTMR,Dunn (holm),2.7527650662420914e-10,True,-0.6962025316455697,Cliff's delta,***
+A-δ-HTMR (SMR2+_Dorsal),C-HTMR/Heat (SST+),Dunn (holm),1.9207569051672188e-09,True,0.7647058823529411,Cliff's delta,***
+A-β-LTMR,A-δ-HTMR (SMR2+_Ventral),Dunn (holm),3.220392103278441e-08,True,0.8,Cliff's delta,***
+C-Heat (SSTR2+),C-LTMR,Dunn (holm),1.0079196745701826e-07,True,-0.6664184661206255,Cliff's delta,***
+C-HTMR/Heat (MRGPRA3+),C-LTMR,Dunn (holm),1.0350880938032371e-07,True,-0.4958163484230852,Cliff's delta,***
+C-HTMR/Heat (MRGPRD+),C-HTMR/Heat (SST+),Dunn (holm),1.8606087204223113e-07,True,0.6,Cliff's delta,***
+A-δ-HTMR (SMR2+_Dorsal),C-Heat (SSTR2+),Dunn (holm),2.385941457248008e-07,True,0.7324106113033448,Cliff's delta,***
+A-δ-HTMR (SMR2+_Dorsal),C-HTMR/Heat (MRGPRA3+),Dunn (holm),1.0990125548927255e-06,True,0.5448654037886341,Cliff's delta,***
+A-δ-LTMR,C-Cold (TRPM8+),Dunn (holm),1.2756978856418095e-06,True,0.5688608776844071,Cliff's delta,***
+C-HTMR/Heat (MRGPRD+),C-Heat (SSTR2+),Dunn (holm),8.66850071529599e-06,True,0.5673202614379085,Cliff's delta,***
+A-β-LTMR,C-LTMR,Dunn (holm),2.7379844288289638e-05,True,0.5964436407474382,Cliff's delta,***
+A-β-LTMR,C-HTMR/Heat (MRGPRD+),Dunn (holm),0.00010695704868717994,True,0.5158730158730159,Cliff's delta,**
+C-HTMR/Heat (MRGPRA3+),C-HTMR/Heat (MRGPRD+),Dunn (holm),0.00010695704868717994,True,-0.4062146892655367,Cliff's delta,**
+A-δ-HTMR (SMR2+_Ventral),C-HTMR/Heat (SST+),Dunn (holm),0.00044736732644284655,True,0.6,Cliff's delta,**
+A-β-LTMR,A-δ-HTMR (SMR2+_Dorsal),Dunn (holm),0.0006676144375338033,True,0.5816993464052288,Cliff's delta,**
+C-Cold (TRPM8+),C-LTMR,Dunn (holm),0.002598160581817459,True,-0.4279686558167571,Cliff's delta,*
+A-δ-HTMR (SMR2+_Dorsal),C-Cold (TRPM8+),Dunn (holm),0.002763133320648141,True,0.4677871148459384,Cliff's delta,*
+A-δ-HTMR (SMR2+_Ventral),C-Heat (SSTR2+),Dunn (holm),0.00471656018453814,True,0.5555555555555556,Cliff's delta,*
+A-β-LTMR,A-δ-LTMR,Dunn (holm),0.005428537894474752,True,0.4631185807656396,Cliff's delta,*
+A-δ-HTMR (SMR2+_Ventral),A-δ-LTMR,Dunn (holm),0.005696332432576444,True,-0.4148148148148148,Cliff's delta,*
+C-Cold (TRPM8+),C-HTMR/Heat (MRGPRD+),Dunn (holm),0.02592349426299913,True,-0.3529100529100529,Cliff's delta,
+A-δ-HTMR (SMR2+_Ventral),C-HTMR/Heat (MRGPRA3+),Dunn (holm),0.1004171523214293,False,0.3214689265536723,Cliff's delta,
+C-Cold (TRPM8+),C-HTMR/Heat (SST+),Dunn (holm),0.16855042095891318,False,0.35714285714285715,Cliff's delta,
+C-HTMR/Heat (MRGPRA3+),C-HTMR/Heat (SST+),Dunn (holm),0.23400378715896386,False,0.2966101694915254,Cliff's delta,
+A-δ-HTMR (SMR2+_Dorsal),A-δ-HTMR (SMR2+_Ventral),Dunn (holm),0.43284957657295836,False,0.28104575163398693,Cliff's delta,
+C-Cold (TRPM8+),C-Heat (SSTR2+),Dunn (holm),0.48343744029220925,False,0.3081232492997199,Cliff's delta,
+A-δ-HTMR (SMR2+_Ventral),C-LTMR,Dunn (holm),0.5051419904229034,False,-0.2579465541490858,Cliff's delta,
+A-δ-LTMR,C-LTMR,Dunn (holm),0.7408266748326566,False,0.15996525192355424,Cliff's delta,
+A-δ-LTMR,C-HTMR/Heat (MRGPRD+),Dunn (holm),0.7408266748326566,False,0.13420479302832244,Cliff's delta,
+C-HTMR/Heat (MRGPRA3+),C-Heat (SSTR2+),Dunn (holm),0.7408266748326566,False,0.2432701894317049,Cliff's delta,
+A-δ-HTMR (SMR2+_Ventral),C-Cold (TRPM8+),Dunn (holm),0.7638546729442731,False,0.2328042328042328,Cliff's delta,
+A-δ-HTMR (SMR2+_Ventral),C-HTMR/Heat (MRGPRD+),Dunn (holm),0.8543927228454339,False,-0.18962962962962962,Cliff's delta,
+C-Cold (TRPM8+),C-HTMR/Heat (MRGPRA3+),Dunn (holm),1.0,False,0.0764729620661824,Cliff's delta,
+A-δ-HTMR (SMR2+_Dorsal),C-LTMR,Dunn (holm),1.0,False,0.017870439314966492,Cliff's delta,
+A-δ-HTMR (SMR2+_Dorsal),A-δ-LTMR,Dunn (holm),1.0,False,-0.14340638216070742,Cliff's delta,
+C-HTMR/Heat (MRGPRD+),C-LTMR,Dunn (holm),1.0,False,0.011533052039381153,Cliff's delta,
+C-HTMR/Heat (SST+),C-Heat (SSTR2+),Dunn (holm),1.0,False,-0.058823529411764705,Cliff's delta,
+A-δ-HTMR (SMR2+_Dorsal),C-HTMR/Heat (MRGPRD+),Dunn (holm),1.0,False,0.03093681917211329,Cliff's delta,

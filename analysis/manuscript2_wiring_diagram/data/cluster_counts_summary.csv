@@ -1,0 +1,25 @@
+cluster,pre_count,post_count
+IN for abltmr,8,8
+IN for adhtmr,6,6
+ab-ltmr,25,0
+ad-htmr,21,0
+adltmr,18,0
+adltmr_module,0,15
+c-cold,25,0
+c-htmr-p,20,0
+cltmr,16,0
+cltmr_module,0,24
+islet-adltmr,5,5
+islet-chtmr,6,6
+islet-cltmr,7,7
+mrgd,18,0
+noci_module,0,10
+np_module,0,27
+p1,0,6
+p2_cold,0,8
+p2_noci,0,14
+p2_poly,0,18
+r,0,24
+sst,18,0
+v1,0,41
+v2,0,36

@@ -1,0 +1,32 @@
+edge_type,pre,post,avg_syn_per_overlap_pair,density_syn_per_um,fraction,line_style,arrow_size_pts,dens_bin,dens_bin_value,color_hex
+celltype_to_celltype,Aδ-LTMR module,C-LTMR module,3.901960784313725,0.0049474446647502,,solid,4.0,0.0,0.0036,#c9ddf0
+celltype_to_celltype,R,P1,0.65625,0.0221139812611193,,solid,1.0,2.0,0.014,#083e81
+celltype_to_celltype,V1,P1,2.0104712041884816,0.0380613928800461,,solid,4.0,2.0,0.014,#083e81
+celltype_to_celltype,V2,P1,0.2993197278911564,0.0110900647608237,,solid,0.5,1.0,0.007,#77b5d9
+celltype_to_celltype,C-HTMR/Heat module,P2-noci,0.4491525423728814,0.0100598305739844,,solid,0.5,1.0,0.007,#77b5d9
+celltype_to_celltype,C-HTMR/Heat module,P2-poly,0.4322916666666667,0.0091630568549151,,solid,0.5,1.0,0.007,#77b5d9
+celltype_to_celltype,C-LTMR module,P2-poly,0.3567251461988304,0.0058499058662523,,solid,0.5,0.0,0.0036,#c9ddf0
+celltype_to_celltype,V2,P2-poly,0.3101045296167247,0.0053506795741662,,solid,0.5,0.0,0.0036,#c9ddf0
+celltype_to_celltype,C-HTMR/Heat module,R,1.4046762589928057,0.0038944851078271,,solid,2.0,0.0,0.0036,#c9ddf0
+celltype_to_celltype,C-LTMR module,R,1.6785009861932938,0.0056660385096456,,solid,2.0,0.0,0.0036,#c9ddf0
+celltype_to_celltype,C-LTMR module,V1,0.5912698412698413,0.0040785781266956,,solid,1.0,0.0,0.0036,#c9ddf0
+celltype_to_celltype,R,V1,1.514501891551072,0.0175973060269654,,solid,2.0,2.0,0.014,#083e81
+celltype_to_celltype,V1,V1,0.911929543634908,0.0148905140865,,solid,1.0,2.0,0.014,#083e81
+celltype_to_celltype,V2,V1,1.2240837696335078,0.0161767291210665,,solid,2.0,2.0,0.014,#083e81
+celltype_to_celltype,Aδ-HTMR module,V2,0.5504587155963303,0.0064131797268197,,solid,1.0,0.0,0.0036,#c9ddf0
+celltype_to_celltype,Aδ-LTMR module,V2,0.8877284595300261,0.0041029576748649,,solid,1.0,0.0,0.0036,#c9ddf0
+celltype_to_celltype,C-HTMR/Heat module,V2,0.4037900874635568,0.0041188417494496,,solid,0.5,0.0,0.0036,#c9ddf0
+celltype_to_celltype,C-LTMR module,V2,0.899581589958159,0.0074373121098422,,solid,1.0,1.0,0.007,#77b5d9
+sensory_to_celltype,Aδ-HTMR,Aδ-HTMR module,2.2228915662650603,0.022176100756277788,0.12200269885734857,solid,4.0,2.0,0.014,#083e81
+sensory_to_celltype,Peptidergic C-fibers,Aδ-HTMR module,1.1538461538461535,0.00907868081168469,0.058705821014196045,solid,2.0,1.0,0.007,#77b5d9
+sensory_to_celltype,Aδ-LTMR,Aδ-LTMR module,10.793333333333331,0.04748082436078037,0.13710205379377768,solid,8.0,2.0,0.014,#083e81
+sensory_to_celltype,C-HTMR/Heat (MrgprA3/B4/D+),C-HTMR/Heat module,6.080882352941177,0.012379841394226241,0.23916425844654465,solid,8.0,1.0,0.007,#77b5d9
+sensory_to_celltype,C-LTMR,C-LTMR module,13.5,0.01722430479114185,0.20210644734980612,solid,8.0,2.0,0.014,#083e81
+sensory_to_celltype,C-Cold,P2-cold,1.284671532846715,0.008498337338253451,0.35161489400570656,solid,2.0,1.0,0.007,#77b5d9
+sensory_to_celltype,Peptidergic C-fibers,P2-cold,0.050632911392405,0.00104740969610319,0.04478818040304556,dashed,0.3,,,
+sensory_to_celltype,Aδ-HTMR,P2-noci,0.9558011049723756,0.01220249081792908,0.11089701310154228,solid,1.0,1.0,0.007,#77b5d9
+sensory_to_celltype,Peptidergic C-fibers,P2-noci,1.3681318681318682,0.01012060031483506,0.10246046231696414,solid,2.0,1.0,0.007,#77b5d9
+sensory_to_celltype,C-Cold,P2-poly,0.2929292929292929,0.00654735748376205,0.03874613110073382,solid,0.5,0.0,0.0036,#c9ddf0
+sensory_to_celltype,Peptidergic C-fibers,P2-poly,0.24,0.00342297149934396,0.05342248237872446,dashed,0.3,,,
+sensory_to_celltype,C-HTMR/Heat (MrgprA3/B4/D+),R,1.1264044943820224,0.00231684527680889,0.05386935903188699,dashed,2.0,,,
+sensory_to_celltype,C-HTMR/Heat (Sst+),R,3.373913043478261,0.012700653846242721,0.057557358006502725,solid,4.0,1.0,0.007,#77b5d9
