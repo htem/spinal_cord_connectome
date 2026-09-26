@@ -1,6 +1,6 @@
 # Spinal Cord Connectome
 
-This repository contains data and code related to "**Cell type-resolved connectomic reconstruction of the spinal cord dorsal horn reveals somatosensory neuron synaptic organization and modality-specific inhibition**" and "**A synaptic wiring diagram underlying modality-specific ascending pathways of the superficial spinal dorsal horn**", two manuscripts studying circuit motifs of the mammalian spinal cord dorsal horn.
+This repository contains data and code related to "**Cell type-resolved connectomic reconstruction of the spinal dorsal horn reveals sensory neuron synaptic organization and modality-specific inhibition**" and "**A synaptic wiring diagram underlying modality-specific ascending pathways of the superficial spinal dorsal horn**", two manuscripts studying circuit motifs of the mammalian spinal cord dorsal horn.
 
 ## Data 
 
