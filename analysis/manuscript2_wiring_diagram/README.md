@@ -3,8 +3,8 @@
 *A synaptic wiring diagram underlying somatosensory modality-specific ascending pathways of
 the superficial spinal dorsal horn* (Xiang et al.)
 
-Figure 5 (the connectome-constrained firing-rate model) is maintained separately — see the
-top-level [README](../README.md).
+Figure 5 is the connectome-constrained firing-rate model, written in Julia and kept in
+[`../dorsal_horn_model/`](../dorsal_horn_model/) rather than here.
 
 > **Which CAVE table to use.** ExN and PN cell-type labels come from
 > **`spinalcord_neuron_clusters_2`** (this is where the final, expert-curated cluster

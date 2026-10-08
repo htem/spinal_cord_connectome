@@ -20,9 +20,9 @@ run. See the per-manuscript README for a panel-by-panel map.
   is maintained separately at **[htem/dorsalhorn-ml](https://github.com/htem/dorsalhorn-ml)**.
   The analyses here consume its per-neuron outputs
   (`cell_type_predictions_<root_id>.feather`).
-- **Circuit modeling** — the firing-rate model of heterotypic feedforward inhibition
-  (Manuscript 1) and the connectome-constrained dorsal horn model (Manuscript 2, Fig. 5)
-  are maintained separately.
+- **The firing-rate model of heterotypic feedforward inhibition** (Manuscript 1) is
+  maintained separately. The connectome-constrained dorsal horn model for Manuscript 2
+  **is** here, in [`dorsal_horn_model/`](dorsal_horn_model/).
 - **Segmentation and synapse prediction** pipelines (CNN-based, run by collaborators).
 - Two large data sets that some Manuscript 1 panels read directly — the per-neuron SPINE
   prediction tables and the meshwork caches — plus neuron meshes and full-resolution TIFF
@@ -160,6 +160,7 @@ caveclient.auth.AuthClient().save_token(token="your-cave-token")
 ```
 common/                                  shared library + mesh export utilities
 envs/                                    exact conda environment exports
+dorsal_horn_model/                       connectome-constrained circuit model (Julia, M2 Fig. 5)
 manuscript1_sensory_synaptic_organization/
   figureS1_synapse_prediction_validation/     precision / recall of synapse predictions
   figure3_sensory_synaptic_architecture/      synapse counts per sensory subtype
@@ -177,6 +178,15 @@ manuscript2_wiring_diagram/
   figure4_wiring_diagram/                     connectivity, path overlap, network traversal
   data/
 ```
+
+## Circuit model
+
+[`dorsal_horn_model/`](dorsal_horn_model/) holds the connectome-constrained firing-rate model
+of the dorsal horn microcircuit behind **Manuscript 2, Figure 5** — written in **Julia**, not
+Python, and so independent of the conda environments below. Install its dependencies with
+`julia install.jl` and see
+[`dorsal_horn_model/README.md`](dorsal_horn_model/README.md) for how to produce each panel.
+It is authored and maintained by Ramin Khajeh and carries its own MIT licence.
 
 ## Environment
 
