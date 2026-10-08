@@ -20,9 +20,6 @@ run. See the per-manuscript README for a panel-by-panel map.
   is maintained separately at **[htem/dorsalhorn-ml](https://github.com/htem/dorsalhorn-ml)**.
   The analyses here consume its per-neuron outputs
   (`cell_type_predictions_<root_id>.feather`).
-- **The firing-rate model of heterotypic feedforward inhibition** (Manuscript 1) is
-  maintained separately. The connectome-constrained dorsal horn model for Manuscript 2
-  **is** here, in [`dorsal_horn_model/`](dorsal_horn_model/).
 - **Segmentation and synapse prediction** pipelines (CNN-based, run by collaborators).
 - Two large data sets that some Manuscript 1 panels read directly — the per-neuron SPINE
   prediction tables and the meshwork caches — plus neuron meshes and full-resolution TIFF
