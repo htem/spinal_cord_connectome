@@ -24,8 +24,10 @@ run. See the per-manuscript README for a panel-by-panel map.
   (Manuscript 1) and the connectome-constrained dorsal horn model (Manuscript 2, Fig. 5)
   are maintained separately.
 - **Segmentation and synapse prediction** pipelines (CNN-based, run by collaborators).
-- Neuron meshes, `.h5` mesh caches, `.swc` skeletons, per-neuron SPINE `.feather` outputs, and
-  full-resolution TIFF figure exports. These are bulk data; see **Data availability** below.
+- Two large data sets that some Manuscript 1 panels read directly — the per-neuron SPINE
+  prediction tables and the meshwork caches — plus neuron meshes and full-resolution TIFF
+  exports. These are at Harvard Dataverse, <https://doi.org/10.7910/DVN/NVXK7W>; see
+  **Data availability** below.
 
 ## Data sources
 
@@ -208,22 +210,35 @@ To browse rather than query them, see
 [CATMAID](#catmaid--the-dsc_apex-volumes) for the six dSC_APEX volumes and the glomerulus
 tracings.
 
-**What ships in this repository (~85 MB).** Every figure notebook runs offline from a clone —
-no CAVE account needed. That includes the derived connectivity and overlap matrices, the
-per-neuron sensory-input tables, cluster assignments, soma volumes, and the curated SWC
-skeletons under each manuscript's `data/`.
+**What ships in this repository (~91 MB).** Every figure notebook for **Manuscript 2**, and
+most of Manuscript 1, runs offline from a clone — no CAVE account and no extra download.
+That covers the derived connectivity and overlap matrices, the per-neuron sensory-input
+tables, cluster assignments, soma volumes, the curated SWC skeletons, and the per-PSI-IhN
+SPINE tables, all under each manuscript's `data/`.
 
-**What is deposited separately.** Bulk binaries, excluded via `.gitignore`:
+**What is too large for git** is deposited at Harvard Dataverse:
 
-| Not in git | Size | Needed for |
+> **<https://doi.org/10.7910/DVN/NVXK7W>**
+
+| Deposited | Size | Required by |
 | --- | --- | --- |
-| `psi_ihn_postsynaptic_feather/`, `psi_ihn_feather/` | ~133 MB | Re-running the SPINE per-synapse classifications (M1 Fig. 5). The classifier itself lives at [htem/dorsalhorn-ml](https://github.com/htem/dorsalhorn-ml). |
-| `meshwork_h5/` | ~42 MB | Re-deriving mesh/skeleton quantities (M1 Fig. 3h–k) |
-| Neuron meshes (`.ply`), full-resolution TIFF exports | — | Figure rendering |
+| `psi_ihn_postsynaptic_feather/` | 132 MB | M1 Fig. 5f–j, S11, S12 |
+| `meshwork_h5/` | 44 MB | M1 Fig. S6b, S6c, S6d–h, S6j |
 
-These are only required to regenerate the shipped tables from scratch; the notebooks that
-produce the published panels read the tables directly. See the Data Availability statement in
-the manuscripts for the deposit.
+These are **not** optional extras for those panels — the notebooks read them directly. To use
+them, download the deposit and unpack the two directories into
+`manuscript1_sensory_synaptic_organization/data/`, keeping those folder names. No other panel
+needs anything beyond this repository.
+
+The Dataverse deposit also contains a complete copy of this code, so it can be used standalone
+without cloning. This repository is where corrections are made; prefer it for the code itself.
+
+Neuron meshes (`.ply`) and full-resolution TIFF exports are not deposited: the mesh figures
+(M1 Fig. 3h,i) fetch geometry from CloudVolume at runtime, so the meshes are outputs rather
+than inputs.
+
+The SPINE classifier that produced the prediction tables is at
+[htem/dorsalhorn-ml](https://github.com/htem/dorsalhorn-ml).
 
 ## Citation
 
