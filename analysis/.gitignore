@@ -19,12 +19,16 @@ env/
 *.tiff
 *.tif
 *.feather
+# ...except the small per-PSI-IhN tables the Figure 4 notebooks read directly
+!manuscript1_sensory_synaptic_organization/data/psi_ihn_feather/**/*.feather
 meshes/
 mesh_h5_outputs*/
 
-# SWC skeletons are bulk EXCEPT the curated set that ships with the repo
+# SWC skeletons are bulk EXCEPT the curated sets that ship with the repo
 *.swc
 !manuscript2_wiring_diagram/data/swc_skeletons/**/*.swc
+!manuscript2_wiring_diagram/data/swc_skeletons_pn_preclustering/**/*.swc
+!manuscript1_sensory_synaptic_organization/data/sensory_neuron_swc/**/*.swc
 
 # Local caches
 l2_cache.sqlite
